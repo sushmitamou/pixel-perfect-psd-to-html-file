@@ -1,0 +1,51 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/01/2021 05:41
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/font/Flaticon.eot");
+  src: url("../fonts/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font/Flaticon.woff2") format("woff2"),
+       url("../fonts/font/Flaticon.woff") format("woff"),
+       url("../fonts/font/Flaticon.ttf") format("truetype"),
+       url("../fonts/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+        font-style: normal;
+        margin-left: 0px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+}
+
+.flaticon-monitor:before { content: "\f100"; }
+.flaticon-plane:before { content: "\f101"; }
+.flaticon-television:before { content: "\f102"; }
+.flaticon-verified:before { content: "\f103"; }
+.flaticon-wifi:before { content: "\f104"; }
+.flaticon-tv-box:before { content: "\f105"; }
+.flaticon-molecular:before { content: "\f106"; }
+.flaticon-send:before { content: "\f107"; }
+.flaticon-video-camera:before { content: "\f108"; }
+.flaticon-google-cast-logo:before { content: "\f109"; }
+.flaticon-wifi-router:before { content: "\f10a"; }
+.flaticon-satellite-tv:before { content: "\f10b"; }
+.flaticon-lighting:before { content: "\f10c"; }
+.flaticon-rocket:before { content: "\f10d"; }
+.flaticon-video-player:before { content: "\f10e"; }
+.flaticon-play-1:before { content: "\f10f"; }
